@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+
+/*********************************** navbar ***************************/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #182456;
+    color: white;
+
+}
+nav .nation ul{
+    display: flex;
+}
+.nation ul li{
+    list-style-type: none;
+    padding: 20px;
+ }
+ /*********************************** section1 ***************************/
+.section1{
+    height: 600px;
+    background-image: url(./images/informatique.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .grou{
+    border: 2px solid #182456;
+    width: 130px;
+    height: 40px;
+    border-radius: 80px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #182456;
+
+}
+.section1 h4{
+    padding: 20px;
+}
+.section1 h1{
+    padding: 20px;
+}
+.rang .rond{
+    border: 2px solid #182456;
+    border-radius: 200px;
+}
+.rang .rond .fa-regular{
+    padding: 18px;
+    font-size: 30px;
+    color: #182456;
+}
+.rang .nous p{
+    color: rgb(156, 156, 152);
+    padding: 10px;
+}
+.rang .nous span{
+    color: #182456;
+    font-size: 20px;
+    padding: 10px;
+}
+.rang{
+    display: flex;
+    padding: 20px;
+}
+.section1 .blanc{
+    background-color: white;
+    width: 80%;
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blanc .fin{
+    background-color: #182456;
+    height: 40px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.section1 .somme .colon .bar{
+    width: 170px;
+    height: 3px;
+    background-color: white;
+}
+.section1 .somme{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.somme .colon .chi{
+    text-align: center;
+    padding-top: 20px;
+}
+
+ /*********************************** section2 ***************************/
+.section2{
+    padding: 70px;
+    line-height: 28px;
+}
+.section2 .photo .rega img{
+    width: 200px;
+    height: 190px;
+    border-radius: 20px;
+}
+.si .la .fin{
+    background-color: #182456;
+    height: 40px;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.si .la{
+    display: flex;
+    justify-content: space-between;
+}
+.si .aller{
+    display: flex;
+    color: rgb(151, 153, 154);
+    padding-left: 20px;
+}
+.si .aller .doi{
+    padding-left: 8px;
+}
+.si .tra{
+    display: flex;
+}
+.section2 .cou img{
+    width: 180px;
+    height: 280px;
+}
+.section2 .photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.si .leur{
+    color: #253e9f;
+}
+ /*********************************** section3 ***************************/
+.section3 .donner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section3 .donner .secou{
+    width: 50px;
+    border: 1px solid #253e9f ;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 10px;
+    color: #253e9f;
+}
+.section3 .donner .danser{
+    background-color: #253e9f;
+    padding: 20px;
+    border-radius: 100px;
+    color: white;
+}
+
+
+
+
+
+ /*********************************** footer ***************************/
+.footer{
+    background-color: #182456;
+    color: white;
+    padding: 80px;
+}
+.footer p{
+    text-align: end;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+ @media  only screen and (max-width: 600px){
+    /* navbar */
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .section1 */
+    .section1 .blanc{
+        display: flex;
+        flex-direction: column;
+    }
+    .section1{
+        height: 800px;
+    }
+    .section1 .somme .colon .bar{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+    }
+    /* .section2 */
+    .section2 .photo{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .photo .si{
+        margin: 15px;
+    }
+
+ }
